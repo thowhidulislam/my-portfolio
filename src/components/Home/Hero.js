@@ -1,4 +1,5 @@
 import React from 'react';
+import portfolio from '../../assets/portfolio/Md Thowhidul Islam Molla.pdf'
 
 const Hero = () => {
     return (
@@ -10,13 +11,14 @@ const Hero = () => {
                         <h1 className='text-5xl font-bold text-primary'>Thowhidul Islam</h1>
                         <p class="py-6 text-[#B9D1E8]">I am an aspiring web developer. Highly interested in the MERN stack.</p>
                         <div className='button-group-custom relative my-7'>
-                            <button className='bg-primary w-44 h-14 z-100 font-bold text-2xl absolute bottom-6 left-4 hover:bottom-4 hover:left-2 transition hover:ease-in-out duration-300'>Resume</button>
+                            <a href={portfolio} download='Md Thowhidul Islam Molla.pdf'>
+                                <button type='button' className='bg-primary w-44 h-14 z-100 font-bold text-2xl absolute bottom-6 left-4 hover:bottom-4 hover:left-2 transition hover:ease-in-out duration-300'>Resume</button></a>
                             <button className='bg-neutral w-44 h-14'></button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
