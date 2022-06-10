@@ -10,7 +10,7 @@ const Hero = () => {
                     <div>
                         <h1 class="text-xl font-bold text-base-100 my-3 tracking-widest">Hi, my name is </h1>
                         <h1 className='text-5xl font-bold text-primary'>Thowhidul Islam</h1>
-                        <p class="py-6 text-[#B9D1E8]">I am an aspiring web developer based in the Bangladesh.</p>
+                        <p class="py-6 text-info">I am an aspiring web developer based in the Bangladesh.</p>
                         <div className='button-group-custom relative my-7'>
                             <a href={portfolio} download='Md Thowhidul Islam Molla.pdf'>
                                 <PrimaryButton>Resume</PrimaryButton>

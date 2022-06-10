@@ -6,8 +6,8 @@ const ContactForms = () => {
     return (
         <section id='contact'>
             <div className='my-24'>
-                <div class="flex items-center lg:flex-row bg-secondary">
-                    <div class=" w-full max-w-3xl lg:text-left flex-1">
+                <div class="flex items-center flex-col lg:flex-row bg-secondary">
+                    <div class=" w-full max-w-3xl text-center lg:text-left flex-1">
                         <h1 className='text-5xl text-primary font-bold '>Get In Touch</h1>
                         <p class="py-2 text-accent">Want to know about me? Drop me a line and let's chat!</p>
                     </div>
