@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import portfolio from '../../assets/portfolio/Md Thowhidul Islam Molla.pdf'
 
 const Navbar = () => {
@@ -6,6 +7,7 @@ const Navbar = () => {
         <li><a href='#aboutMe' className='focus:bg-transparent hover:text-primary font-bold'>About</a></li>
         <li><a href='#projects' className='focus:bg-transparent hover:text-primary font-bold'>Projects</a></li>
         <li><a href='#contact' className='focus:bg-transparent hover:text-primary font-bold'>Contact</a></li>
+        <li><Link to='blogs' className='focus:bg-transparent hover:text-primary font-bold'>Blogs</Link></li>
         <li><a href={portfolio} download='Md_Thowhidul_Islam_Molla.pdf' className='active:bg-transparent'><button className='outline outline-2 px-4 py-1 outline-primary font-bold text-lg text-primary'>Resume</button></a></li>
     </>
     return (

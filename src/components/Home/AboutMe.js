@@ -10,9 +10,7 @@ const AboutMe = () => {
                     <p className='text-xl text-info my-6'>I'm Thowhidul Islam Molla, a front-end web developer. Highly interested in the MERN stack.</p>
                     <p className='text-xl text-info my-2'>I've expertise in React, JavaScript, Tailwind, Bootstrap, React Bootstrap, HTML, and CSS. In addition, I am comfortable writing code in Express JS, MongoDB, React Router, React Hook Form, and Firebase Authentication. Apart from these technologies, I am also familiar with node, postman, and stripe.</p>
                 </div>
-                <div className='w-full lg:w-[40%]'>
-                    <img class="mask mask-hexagon w-[400px]" src={myImage} alt='' />
-                </div>
+                <img class="mask mask-hexagon w-full lg:w-[40%]" src={myImage} alt='' />
             </div>
         </section>
     );
