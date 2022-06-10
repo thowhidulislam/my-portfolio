@@ -9,7 +9,7 @@ const ContactForms = () => {
                 <div class="flex items-center flex-col lg:flex-row bg-secondary">
                     <div class=" w-full max-w-3xl text-center lg:text-left flex-1">
                         <h1 className='text-5xl text-primary font-bold '>Get In Touch</h1>
-                        <p class="py-2 text-accent">Want to know about me? Drop me a line and let's chat!</p>
+                        <p class="py-2 text-info">Want to know about me? Drop me a line and let's chat!</p>
                     </div>
                     <div class="max-w-3xl flex-1">
                         <form action="https://formsubmit.co/thowhidmk@gmail.com" method="POST">

@@ -5,7 +5,7 @@ import PrimaryButton from '../Shared/PrimaryButton';
 const Hero = () => {
     return (
         <section className='relative'>
-            <div class="py-24 min-w-screen">
+            <div class="py-8 lg:py-24 min-w-screen">
                 <div class="flex-col lg:flex-row">
                     <div>
                         <h1 class="text-xl font-bold text-base-100 my-3 tracking-widest">Hi, my name is </h1>

@@ -7,12 +7,12 @@ import FeaturedProjects3 from "../../assets/featured-projects/Mike Reynolds-feat
 const FeaturedProjects = () => {
     return (
         <section id='projects'>
-            <h1 className='text-5xl text-primary'>Projects</h1>
+            <h1 className='text-5xl text-primary text-center lg:text-left'>Projects</h1>
             <div className='my-10'>
                 <div className=''>
-                    <div class="flex flex-col lg:flex-row bg-secondary h-[380px] items-center">
-                        <figure className='w-[60%] h-full'><img src={FeaturedProjects1} className='w-full h-full object-cover' alt="Album" /></figure>
-                        <div class="w-[40%] text-right">
+                    <div class="flex flex-col lg:flex-row bg-secondary h-[380px] items-start lg:items-center">
+                        <figure className='w-full lg:w-[60%] h-full'><img src={FeaturedProjects1} className='w-full h-full object-cover' alt="Album" /></figure>
+                        <div class="w-full lg:w-[40%] mt-6 lg:mt-0 text-left lg:text-right">
                             <h1 className='text-md font-bold text-base-100'>Featured Project</h1>
                             <h1 class="text-primary text-5xl font-bold">Carpentryz</h1>
                             <p className='py-3 text-base-100'>Carpentryz is a website built focusing on product manufacturers. Both buyers and sellers can use this website.</p>
@@ -37,9 +37,9 @@ const FeaturedProjects = () => {
                     </div>
 
                     {/* SpiceKart */}
-                    <div class="flex flex-col lg:flex-row-reverse bg-secondary h-[380px] items-center my-24">
-                        <figure className='w-[60%] h-full'><img src={FeaturedProjects2} className='w-full h-full object-cover' alt="Album" /></figure>
-                        <div class="w-[40%] text-left">
+                    <div class="flex flex-col lg:flex-row-reverse bg-secondary h-[380px] items-start lg:items-center my-40 lg:my-24">
+                        <figure className='w-full lg:w-[60%] h-full'><img src={FeaturedProjects2} className='w-full h-full object-cover' alt="Album" /></figure>
+                        <div class="w-full lg:w-[40%] mt-6 lg:mt-0 text-left">
                             <h1 className='text-md font-bold text-base-100'>Featured Project</h1>
                             <h1 class="text-primary text-5xl font-bold">SpiceKart</h1>
                             <p className='py-3 text-base-100'>SpiceKart is a warehouse management website.</p>
@@ -61,9 +61,9 @@ const FeaturedProjects = () => {
                     </div>
 
                     {/* Reynolds */}
-                    <div class="flex flex-col lg:flex-row bg-secondary h-[380px] items-center my-24">
-                        <figure className='w-[60%] h-full'><img src={FeaturedProjects3} className='w-full h-full object-cover' alt="Album" /></figure>
-                        <div class="w-[40%] text-right">
+                    <div class="flex flex-col lg:flex-row bg-secondary h-[380px] items-start lg:items-center my-40 lg:my-24">
+                        <figure className='w-full lg:w-[60%] h-full'><img src={FeaturedProjects3} className='w-full h-full object-cover' alt="Album" /></figure>
+                        <div class="w-full lg:w-[40%] text-left lg:text-right mt-6 lg:mt-0">
                             <h1 className='text-md font-bold text-base-100'>Featured Project</h1>
                             <h1 class="text-primary text-5xl font-bold">Reynolds</h1>
                             <p className='py-3 text-base-100'>It is an independent service provider website.</p>
