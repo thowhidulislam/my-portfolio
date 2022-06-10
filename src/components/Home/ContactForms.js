@@ -1,10 +1,10 @@
 import React from 'react';
 import PrimaryButton from '../Shared/PrimaryButton';
-import './ContactForm.css'
+import './ContactForms.css'
 
-const ContactForm = () => {
+const ContactForms = () => {
     return (
-        <section>
+        <section id='contact'>
             <div className='my-24'>
                 <div class="flex items-center lg:flex-row bg-secondary">
                     <div class=" w-full max-w-3xl lg:text-left flex-1">
@@ -29,4 +29,4 @@ const ContactForm = () => {
     );
 };
 
-export default ContactForm;
+export default ContactForms;

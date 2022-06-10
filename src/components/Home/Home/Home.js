@@ -1,5 +1,6 @@
 import React from 'react';
-import ContactForm from '../ContactForm';
+import AboutMe from '../AboutMe';
+import ContactForms from '../ContactForms';
 import FeaturedProjects from '../FeaturedProjects';
 import Hero from '../Hero';
 import Navbar from '../Navbar';
@@ -10,7 +11,9 @@ const Home = () => {
             <Navbar></Navbar>
             <Hero></Hero>
             <FeaturedProjects></FeaturedProjects>
-            <ContactForm></ContactForm>
+            <AboutMe></AboutMe>
+            <ContactForms></ContactForms>
+
         </div>
     );
 };

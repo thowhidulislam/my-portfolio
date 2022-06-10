@@ -1,17 +1,17 @@
 import React from 'react';
-import ButtonOutline from '../../utiliites/ButtonOutline';
+import portfolio from '../../assets/portfolio/Md Thowhidul Islam Molla.pdf'
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a>About</a></li>
-        <li><a>Projects</a></li>
-        <li><a>Contact</a></li>
-        <li><a><ButtonOutline></ButtonOutline></a></li>
+        <li><a href='#aboutMe' className='focus:bg-transparent'>About</a></li>
+        <li><a href='#projects' className='focus:bg-transparent'>Projects</a></li>
+        <li><a href='#contact' className='focus:bg-transparent'>Contact</a></li>
+        <li><a href={portfolio} download='Md_Thowhidul_Islam_Molla.pdf' className='active:bg-transparent'><button className='outline outline-2 px-4 py-1 outline-primary font-bold text-lg text-primary'>Resume</button></a></li>
     </>
     return (
         <div class="navbar bg-secondary text-white ">
             <div class="navbar-start">
-                <a class="normal-case text-xl">Thowhid</a>
+                <a href='/' class="normal-case text-xl">Thowhid</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

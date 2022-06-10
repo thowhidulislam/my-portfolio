@@ -5,7 +5,7 @@ import FeaturedProjects3 from "../../assets/featured-projects/Mike Reynolds-feat
 
 const FeaturedProjects = () => {
     return (
-        <section>
+        <section id='projects'>
             <h1 className='text-5xl text-primary'>Projects</h1>
             <div className='my-10'>
                 <div className=''>
