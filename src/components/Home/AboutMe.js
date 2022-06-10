@@ -1,4 +1,5 @@
 import React from 'react';
+import myImage from '../../assets/my-image.png'
 
 const AboutMe = () => {
     return (
@@ -10,7 +11,7 @@ const AboutMe = () => {
                     <p className='text-xl text-info my-2'>I've expertise in React, JavaScript, Tailwind, Bootstrap, React Bootstrap, HTML, and CSS. In addition, I am comfortable writing code in Express JS, MongoDB, React Router, React Hook Form, and Firebase Authentication. Apart from these technologies, I am also familiar with node, postman, and stripe.</p>
                 </div>
                 <div className='w-[40%]'>
-                    <img class="mask mask-hexagon w-[400px]" src="https://randomuser.me/api/portraits/men/51.jpg" alt='' />
+                    <img class="mask mask-hexagon w-[400px]" src={myImage} alt='' />
                 </div>
             </div>
         </section>
