@@ -7,7 +7,7 @@ import FeaturedProjects3 from "../../assets/featured-projects/Mike Reynolds-feat
 const FeaturedProjects = () => {
     return (
         <section id='projects'>
-            <h1 className='text-5xl text-primary text-center lg:text-left'>Projects</h1>
+            <h1 className='text-5xl text-primary text-center font-bold lg:text-left'>Projects</h1>
             <div className='my-10'>
                 <div className=''>
                     <div class="flex flex-col lg:flex-row bg-secondary h-[380px] items-start lg:items-center">

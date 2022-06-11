@@ -4,17 +4,17 @@ import portfolio from '../../assets/portfolio/Md Thowhidul Islam Molla.pdf'
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a href='#aboutMe' className='focus:bg-transparent hover:text-primary font-bold'>About</a></li>
-        <li><a href='#projects' className='focus:bg-transparent hover:text-primary font-bold'>Projects</a></li>
-        <li><a href='#contact' className='focus:bg-transparent hover:text-primary font-bold'>Contact</a></li>
-        <li><Link to='blogs' className='focus:bg-transparent hover:text-primary font-bold'>Blogs</Link></li>
+        <li><a href='#aboutMe' className='text-lg text-info focus:bg-transparent hover:text-primary font-bold'>About</a></li>
+        <li><a href='#projects' className='text-lg text-info focus:bg-transparent hover:text-primary font-bold'>Projects</a></li>
+        <li><a href='#contact' className='text-lg text-info focus:bg-transparent hover:text-primary font-bold'>Contact</a></li>
+        <li><Link to='blogs' className='text-lg text-info focus:bg-transparent hover:text-primary font-bold'>Blogs</Link></li>
         <li><a href={portfolio} download='Md_Thowhidul_Islam_Molla.pdf' className='active:bg-transparent'><button className='outline outline-2 px-4 py-1 outline-primary font-bold text-lg text-primary'>Resume</button></a></li>
     </>
     return (
         <div class="bg-secondary text-white mx-4 px-4 lg:mx-20 lg:px-10">
             <div className='navbar'>
                 <div class="navbar-start">
-                    <a href='/' class="normal-case text-xl">Thowhid</a>
+                    <a href='/' class="uppercase text-3xl font-bold">Thowhid</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
