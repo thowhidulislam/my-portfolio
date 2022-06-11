@@ -3,6 +3,7 @@ import AboutMe from '../AboutMe';
 import ContactForms from '../ContactForms';
 import FeaturedProjects from '../FeaturedProjects';
 import Hero from '../Hero';
+import MoreProjects from '../MoreProjects';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <div>
                 <Hero></Hero>
                 <FeaturedProjects></FeaturedProjects>
+                <MoreProjects></MoreProjects>
                 <AboutMe></AboutMe>
                 <ContactForms></ContactForms>
             </div>

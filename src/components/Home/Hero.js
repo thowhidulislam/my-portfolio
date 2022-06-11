@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolio from '../../assets/portfolio/Md Thowhidul Islam Molla.pdf'
 import PrimaryButton from '../Shared/PrimaryButton';
-import LinksBar from './Home/LinksBar';
+import LinksBar from '../LinksBar/LinksBar';
 
 const Hero = () => {
     return (
