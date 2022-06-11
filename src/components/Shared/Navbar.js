@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><a href={portfolio} download='Md_Thowhidul_Islam_Molla.pdf' className='active:bg-transparent'><button className='outline outline-2 px-4 py-1 outline-primary font-bold text-lg text-primary'>Resume</button></a></li>
     </>
     return (
-        <div class="bg-secondary text-white mx-4 px-4 lg:mx-20 lg:px-10 pb-14">
+        <div class="bg-secondary text-white mx-4 px-4 lg:mx-20 lg:px-10">
             <div className='navbar'>
                 <div class="navbar-start">
                     <a href='/' class="normal-case text-xl">Thowhid</a>

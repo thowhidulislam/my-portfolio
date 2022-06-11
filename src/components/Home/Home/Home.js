@@ -6,11 +6,13 @@ import Hero from '../Hero';
 
 const Home = () => {
     return (
-        <div className='mx-4 px-4 lg:mx-20 lg:px-10 pb-14'>
-            <Hero></Hero>
-            <FeaturedProjects></FeaturedProjects>
-            <AboutMe></AboutMe>
-            <ContactForms></ContactForms>
+        <div className='mx-4 px-4 lg:mx-20 lg:px-10'>
+            <div>
+                <Hero></Hero>
+                <FeaturedProjects></FeaturedProjects>
+                <AboutMe></AboutMe>
+                <ContactForms></ContactForms>
+            </div>
         </div>
     );
 };
