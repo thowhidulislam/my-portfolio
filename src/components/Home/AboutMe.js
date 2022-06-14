@@ -3,8 +3,8 @@ import myImage from '../../assets/my-image.png'
 
 const AboutMe = () => {
     return (
-        <section id='aboutMe'>
-            <h1 className='text-5xl text-primary font-bold text-center lg:text-left'>About Me</h1>
+        <section>
+            <h1 id='aboutMe' className='text-5xl text-primary font-bold text-center lg:text-left input-disa'>About Me</h1>
             <div className='flex flex-col lg:flex-row items-center'>
                 <div className='w-full lg:w-[60%]'>
                     <p className='text-xl text-info my-6'>I'm Thowhidul Islam Molla, a front-end web developer. Highly interested in the MERN stack.</p>
