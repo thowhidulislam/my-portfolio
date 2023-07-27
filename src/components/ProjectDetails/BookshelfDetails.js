@@ -1,16 +1,16 @@
 import React from "react";
-import spiceKart3 from "../../assets/featured-projects/SpicyKart-inventory.png";
-import spiceKart2 from "../../assets/featured-projects/SpicyKart-myProducts.png";
-import spiceKart1 from "../../assets/featured-projects/SpicyKart-update.png";
+import bshelf2 from "../../assets/featured-projects/bshelf1.png";
+import bshelf3 from "../../assets/featured-projects/bshelf2.png";
+import bshelf1 from "../../assets/featured-projects/bshelf3.png";
 
-const SpiceKartDetails = () => {
+const BookshelfDetails = () => {
   return (
     <section className="bg-secondary text-white mx-4 px-4 lg:mx-20 lg:px-10 pb-14">
-      <h1 className="text-5xl font-bold text-primary text-center">SpiceKart</h1>
+      <h1 className="text-5xl font-bold text-primary text-center">Bookshelf</h1>
       <div className="spiceKart-code-link flex lg:flex-row justify-center">
         <div className="text-center my-10 mr-5">
           <a
-            href="https://github.com/thowhidulislam/spiceKart-client-side"
+            href="https://github.com/thowhidulislam/book-catalog-frontend"
             target="_blank"
             rel="noreferrer"
             className=" inline-block my-1 mr-3 text-info focus:bg-transparent hover:text-primary font-bold"
@@ -35,7 +35,7 @@ const SpiceKartDetails = () => {
         </div>
         <div className="text-center my-10 mr-5">
           <a
-            href="https://github.com/thowhidulislam/spiceKart-server-side"
+            href="https://github.com/thowhidulislam/book-catalog-server"
             target="_blank"
             rel="noreferrer"
             className=" inline-block my-1 mr-3 text-info focus:bg-transparent hover:text-primary font-bold"
@@ -60,7 +60,7 @@ const SpiceKartDetails = () => {
         </div>
         <div className="text-center my-10">
           <a
-            href="https://spicekart.netlify.app/"
+            href="https://bookshelf-frontend-thowhid.netlify.app/"
             className="inline-block my-1 text-info focus:bg-transparent hover:text-primary font-bold"
             target="_blank"
             rel="noreferrer"
@@ -88,30 +88,77 @@ const SpiceKartDetails = () => {
       </div>
       <div className="text-info">
         <p className="text-info my-5 lg:my-12">
-          SpiceKart is a warehouse management website.
+          Bookshelf is a book catalog web application that allows users to
+          manage and organize information about books.
         </p>
         <ul className="my-8">
           <li>
-            • Upon logging in user can see manage products, add products, and my
-            products on the nav bar.
+            • The landing page have a header, a list of the top 10 recently
+            added books and a footer. There are some open routes such as "All
+            Books", "Sign In", and "Sign Up".
           </li>
           <li>
-            • User can delete products from both manage products and my products
-            section.
+            • Users can create new accounts with a unique email and password.
           </li>
-          <li>• User can restock products.</li>
           <li>
-            • Used charts from recharts.org in the homepage to show the report.
+            • Users can log in using their credentials. After a successful
+            login, the login button would be replaced with a logout button in
+            the navbar.
           </li>
-          <li>• Used JWT for the verification of user.</li>
+          <li>
+            • A list of books is fetched from an API using RTK Query and
+            displayed the list of books.
+          </li>
+          <li>
+            • Implemented a search bar that allows users to search for books
+            based on criteria such as title, author, or genre.
+          </li>
+          <li>
+            • Filtering options are provided to narrow down the book list based
+            on genre & publication year.
+          </li>
+          <li>
+            • Authenticated users can add a new book by filling out a form.
+            After submitting the form, the user will be notified of the success
+            or failure of the operation with a toast or other notification.
+          </li>
+          <li>
+            • When a user clicks on a book from the list, displays a detailed
+            view of the book.
+          </li>
+          <li>
+            • When a user clicks on the Edit Book button, they would be
+            redirected to the edit-book page. When a user clicks on the Delete
+            Book button, they would see a confirmation dialogue to confirm that
+            they want to delete the book.
+          </li>
+          <li>
+            • Authenticated users would be able to leave reviews for books.
+            Provided a submit box for submitting a review.
+          </li>
+          <li>
+            • Authenticate users can edit a book using a form. The form would
+            have current data when editing. After submitting the form, the user
+            would be notified using a toast. If there is any issue, the user
+            will also be notified.
+          </li>
+          <li>
+            • Implemented a wishlist feature where users can add books they want
+            to read in the future.
+          </li>
+          <li>
+            • Users can also create a list of books they are currently reading
+            or plan to read soon. Provided options to mark books as finished
+            reading.
+          </li>
         </ul>
         <div>
           <h1 className="text-primary text-5xl text-bold my-9">
             Images of Features
           </h1>
-          <img src={spiceKart1} className="my-10" alt="" />
-          <img src={spiceKart2} className="my-10" alt="" />
-          <img src={spiceKart3} className="my-10" alt="" />
+          <img src={bshelf1} className="my-10" alt="" />
+          <img src={bshelf2} className="my-10" alt="" />
+          <img src={bshelf3} className="my-10" alt="" />
         </div>
 
         {/* Technologies used */}
@@ -125,13 +172,13 @@ const SpiceKartDetails = () => {
               Express
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Bootstrap
+              Tailwind CSS
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              React Hook Form
+              Redux Toolkit
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              React Firebase Hooks
+              Moongoose
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
               MongoDB
@@ -140,19 +187,10 @@ const SpiceKartDetails = () => {
               Toastify
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Stripe
-            </span>
-            <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Recharts
-            </span>
-            <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
               React Router
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Axios
-            </span>
-            <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Heroku
+              Vercel
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
               HTML
@@ -167,4 +205,4 @@ const SpiceKartDetails = () => {
   );
 };
 
-export default SpiceKartDetails;
+export default BookshelfDetails;
