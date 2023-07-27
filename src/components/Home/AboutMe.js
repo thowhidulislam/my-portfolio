@@ -18,11 +18,12 @@ const AboutMe = () => {
             including React. Highly interested in the MERN stack.
           </p>
           <p className="text-xl text-info my-2 text-justify">
-            I've expertise in React, JavaScript, Redux,Tailwind, Bootstrap,
-            React Bootstrap, HTML, and CSS. In addition, I am comfortable
-            writing code in Express JS,Mongoose, MongoDB, React Router, React
-            Hook Form, and Firebase Authentication. Apart from these
-            technologies, I am also familiar with node, postman, and stripe.
+            I've expertise in React, Next, Typescript, JavaScript, Redux,
+            Tailwind, Bootstrap, React Bootstrap, HTML, and CSS. In addition, I
+            am comfortable writing code in Express JS,Mongoose, Mongoose,
+            MongoDB, React Router, React Hook Form, and Firebase Authentication.
+            Apart from these technologies, I am also familiar with node,
+            postman, and stripe.
           </p>
         </div>
         <img class="mask mask-hexagon w-full lg:w-[40%]" src={myImage} alt="" />
