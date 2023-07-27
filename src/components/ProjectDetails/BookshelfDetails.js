@@ -178,7 +178,7 @@ const BookshelfDetails = () => {
               Redux Toolkit
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
-              Moongoose
+              Mongoose
             </span>
             <span className="mr-2 rounded px-1 py-0.5 my-0.5 bg-neutral inline-block">
               MongoDB
